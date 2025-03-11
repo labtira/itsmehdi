@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Refined Logo",
+      "category": "design",
+      "description": "A modern logo for a car rental company.",
+      "image": "/src/assets/img/1.png",
+      "technologies": ["Illustrator"]
+    },
+    {
+      "id": 2,
+      "title": "Postex Logo",
+      "category": "design",
+      "description": "A modern logo for a post office.",
+      "image": "/src/assets/img/2.png",
+      "technologies": ["Illustrator"]
+    }
+  ]
+} 
