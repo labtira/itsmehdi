@@ -47,6 +47,7 @@ function Projects() {
         <div className="flex justify-between items-center mb-12">
           <Link 
             to="/" 
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-[#111111] to-[#1A1A1A] border border-[#222222] hover:border-[#333333] transition-all group"
           >
             <i className="fas fa-arrow-left"></i>
@@ -130,6 +131,7 @@ function Projects() {
                 </p>
                 <Link 
                   to={`/projects/${project.id}`}
+                  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                   className="p-4 bg-gradient-to-r from-[#111111] to-[#1A1A1A] rounded-xl hover:from-[#1A1A1A] hover:to-[#222222] transition-all border border-[#222222] hover:border-[#333333] shadow-md group inline-flex"
                 >
                   <svg className="w-6 h-6 transform group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none">

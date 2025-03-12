@@ -12,6 +12,7 @@ function ProjectDetails() {
           <h1 className="text-3xl font-bold mb-4">Project Not Found</h1>
           <Link 
             to="/projects" 
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
           >
             <i className="fas fa-arrow-left"></i>
@@ -29,6 +30,7 @@ function ProjectDetails() {
         <div className="flex justify-between items-center mb-12 ">
           <Link 
             to="/projects" 
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-[#111111] to-[#1A1A1A] border border-[#222222] hover:border-[#333333] transition-all group"
           >
             <i className="fas fa-arrow-left"></i>

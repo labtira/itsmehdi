@@ -32,7 +32,11 @@ function Footer() {
           <h4 className="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Quick Links</h4>
           <ul className="space-y-4">
             <li>
-              <Link to="/projects" className="text-zinc-500 hover:text-white transition-colors flex items-center gap-3 text-lg group focus:outline-none">
+              <Link 
+                to="/projects" 
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                className="text-zinc-500 hover:text-white transition-colors flex items-center gap-3 text-lg group focus:outline-none"
+              >
                 <i className="fas fa-code"></i>
                 <span>Projects</span>
                 <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none">
@@ -41,7 +45,11 @@ function Footer() {
               </Link>
             </li>
             <li>
-              <a href="#" className="text-zinc-500 hover:text-white transition-colors flex items-center gap-3 text-lg group focus:outline-none">
+              <a 
+                href="#" 
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                className="text-zinc-500 hover:text-white transition-colors flex items-center gap-3 text-lg group focus:outline-none"
+              >
                 <i className="fas fa-laptop-code"></i>
                 <span>Services</span>
                 <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none">
@@ -50,7 +58,11 @@ function Footer() {
               </a>
             </li>
             <li>
-              <Link to="/contact" className="text-zinc-500 hover:text-white transition-colors flex items-center gap-3 text-lg group focus:outline-none">
+              <Link 
+                to="/contact" 
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                className="text-zinc-500 hover:text-white transition-colors flex items-center gap-3 text-lg group focus:outline-none"
+              >
                 <i className="fas fa-envelope"></i>
                 <span>Contact</span>
                 <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none">
