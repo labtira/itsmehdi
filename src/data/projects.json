@@ -10,14 +10,22 @@
     },
     {
       "id": 2,
-      "title": "Refined Logo",
+      "title": "Valued Logo",
       "category": "design",
-      "description": "A modern logo for a car rental company.",
-      "image": "/img/Projects/refinedlogo.png",
+      "description": "A modern logo for a digital services agency.",
+      "image": "/img/Projects/valuedlogo.png",
       "technologies": ["Illustrator"]
     },
     {
       "id": 3,
+      "title": "Weblink Website",
+      "category": "web",
+      "description": "A modern website for a web design agency.",
+      "image": "/img/Projects/weblink.png",
+      "technologies": ["React", "Tailwind CSS"]
+    },
+    {
+      "id": 4,
       "title": "Postex Logo",
       "category": "design",
       "description": "A modern logo for a post office.",
@@ -25,11 +33,35 @@
       "technologies": ["Illustrator"]
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Postex Website",
       "category": "web",
       "description": "A modern website for a post office.",
       "image": "/img/Projects/webpostex.png",
+      "technologies": ["React", "Tailwind CSS"]
+    },
+    {
+      "id": 6,
+      "title": "Refined Logo",
+      "category": "design",
+      "description": "A modern logo for a online school.",
+      "image": "/img/Projects/refinedlogo.png",
+      "technologies": ["Illustrator"]
+    },
+    {
+      "id": 7,
+      "title": "Weblink Logo",
+      "category": "design",
+      "description": "A modern logo for a web design agency.",
+      "image": "/img/Projects/weblinklogo.png",
+      "technologies": ["Illustrator"]
+    },
+    {
+      "id": 8,
+      "title": "Valued Website",
+      "category": "web",
+      "description": "A modern website for a digital services agency.",
+      "image": "/img/Projects/valuedweb.png",
       "technologies": ["React", "Tailwind CSS"]
     }
   ]
