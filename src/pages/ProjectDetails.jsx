@@ -1,6 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
 import projectsData from '../data/projects.json'
-import logo from '../assets/img/med.png'
 
 function ProjectDetails() {
   const { id } = useParams()
@@ -9,9 +8,6 @@ function ProjectDetails() {
   if (!project) {
     return (
       <div className="min-h-screen bg-[#0A0A0A] text-white p-4 md:p-8 lg:p-12 xl:p-16 flex flex-col items-center">
-        <Link to="/" className="mb-8">
-          <img src={logo} alt="logo" className="w-16 lg:w-20 xl:w-24 hover:opacity-80 transition-opacity"/>
-        </Link>
         <div className="text-center">
           <h1 className="text-3xl font-bold mb-4">Project Not Found</h1>
           <Link 
