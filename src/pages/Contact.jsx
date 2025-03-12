@@ -106,6 +106,18 @@ function Contact() {
                 >
                   <i className="fab fa-twitter text-xl"></i>
                 </a>
+                <a 
+                  href="https://wa.me/212707547044" 
+                  className="w-12 h-12 rounded-full bg-gradient-to-r from-[#111111] to-[#1A1A1A] flex items-center justify-center border border-[#222222] hover:border-[#333333] transition-all hover:scale-105 focus:outline-none"
+                >
+                  <i className="fab fa-whatsapp text-xl"></i>
+                </a>
+                <a 
+                  href="https://github.com/itsmehdi-dev" 
+                  className="w-12 h-12 rounded-full bg-gradient-to-r from-[#111111] to-[#1A1A1A] flex items-center justify-center border border-[#222222] hover:border-[#333333] transition-all hover:scale-105 focus:outline-none"
+                >
+                  <i className="fab fa-github text-xl"></i>
+                </a>
               </div>
             </div>
           </div>
