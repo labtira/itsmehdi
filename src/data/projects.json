@@ -2,6 +2,14 @@
   "projects": [
     {
       "id": 1,
+      "title": "Postex Website",
+      "category": "web",
+      "description": "A modern website for a post office.",
+      "image": "/img/Projects/webpostex.png",
+      "technologies": ["React", "Tailwind CSS"]
+    },
+    {
+      "id": 2,
       "title": "Refined Logo",
       "category": "design",
       "description": "A modern logo for a car rental company.",
@@ -9,12 +17,20 @@
       "technologies": ["Illustrator"]
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Postex Logo",
       "category": "design",
       "description": "A modern logo for a post office.",
       "image": "/img/Projects/postexlogo.png",
       "technologies": ["Illustrator"]
+    },
+    {
+      "id": 4,
+      "title": "Moroccan Cars Website",
+      "category": "web",
+      "description": "A modern website for a car rental company.",
+      "image": "/img/Projects/MCars.png",
+      "technologies": ["React", "Tailwind CSS"]
     }
   ]
 } 

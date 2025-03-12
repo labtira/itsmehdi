@@ -7,7 +7,7 @@ function ProjectDetails() {
 
   if (!project) {
     return (
-      <div className="min-h-screen bg-[#0A0A0A] text-white p-4 md:p-8 lg:p-12 xl:p-16 flex flex-col items-center">
+      <div className="min-h-screen bg-[#0A0A0A] text-white p-4 flex flex-col items-center">
         <div className="text-center">
           <h1 className="text-3xl font-bold mb-4">Project Not Found</h1>
           <Link 
@@ -23,10 +23,10 @@ function ProjectDetails() {
   }
 
   return (
-    <div className="min-h-screen bg-black text-white p-4 md:p-8 lg:p-12 xl:p-16">
-      <div className="max-w-7xl mx-auto sm:max-w-screen-sm">
+    <div className="min-h-screen bg-black text-white ">
+      <div className="w-full mx-auto md:px-6 md:max-w-screen-md p-4 sm:p-0">
         {/* Header */}
-        <div className="flex justify-between items-center mb-12">
+        <div className="flex justify-between items-center mb-12 ">
           <Link 
             to="/projects" 
             className="flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-[#111111] to-[#1A1A1A] border border-[#222222] hover:border-[#333333] transition-all group"

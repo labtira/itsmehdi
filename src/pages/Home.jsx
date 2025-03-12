@@ -6,7 +6,7 @@ import projectsData from '../data/projects.json'
 
 function Home() {
   // Get first 3 projects
-  const featuredProjects = projectsData.projects.slice(0, 3)
+  const featuredProjects = projectsData.projects.slice(0, 2)
 
   return (
     <div className="min-h-screen bg-black text-white">
