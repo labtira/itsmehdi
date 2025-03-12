@@ -2,10 +2,10 @@
   "projects": [
     {
       "id": 1,
-      "title": "Postex Website",
+      "title": "Moroccan Cars Website",
       "category": "web",
-      "description": "A modern website for a post office.",
-      "image": "/img/Projects/webpostex.png",
+      "description": "A modern website for a car rental company.",
+      "image": "/img/Projects/MCars.png",
       "technologies": ["React", "Tailwind CSS"]
     },
     {
@@ -26,10 +26,10 @@
     },
     {
       "id": 4,
-      "title": "Moroccan Cars Website",
+      "title": "Postex Website",
       "category": "web",
-      "description": "A modern website for a car rental company.",
-      "image": "/img/Projects/MCars.png",
+      "description": "A modern website for a post office.",
+      "image": "/img/Projects/webpostex.png",
       "technologies": ["React", "Tailwind CSS"]
     }
   ]
