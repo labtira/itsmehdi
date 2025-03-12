@@ -25,7 +25,7 @@ function Contact() {
   }
 
   return (
-    <div className="min-h-screen bg-black text-white p-4 md:p-8 lg:p-12 xl:p-16">
+    <div className=" bg-black text-white p-4 mb-12 md:p-8 lg:p-12 xl:p-16">
       <div className="w-full mx-auto md:px-6 md:max-w-screen-md">
         {/* Header */}
         <div className="flex justify-between items-center mb-12">
@@ -123,7 +123,7 @@ function Contact() {
           </div>
 
           {/* Contact Form */}
-          {/* <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 md:p-8 border-2 border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
+          <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 md:p-8 border-2 border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
               Send Message
             </h2>
@@ -166,7 +166,7 @@ function Contact() {
                 </svg>
               </button>
             </form>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
