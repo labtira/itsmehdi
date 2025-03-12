@@ -108,7 +108,7 @@ function Projects() {
                 <img 
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-5">

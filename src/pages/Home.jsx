@@ -20,7 +20,7 @@ function Home() {
               <img 
                 src={logo1}
                 alt="Landscape" 
-                className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
+                className="w-full h-full object-cover"
               />
             </div>
             <div className="flex flex-col gap-2">
@@ -88,7 +88,7 @@ function Home() {
             <img 
               src={gif} 
               alt="Landscape" 
-              className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
+              className="w-full h-full object-cover"
             />
           </div>
         </div>
@@ -111,7 +111,7 @@ function Home() {
                   <img 
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                    className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-5">

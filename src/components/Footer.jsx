@@ -5,7 +5,7 @@ function Footer() {
     <footer className="">
       <div className="max-w-full md:max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* About Card */}
-        <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 border-2 border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
+          <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 border-2 border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
           <h4 className="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">About Me</h4>
           <p className="text-zinc-500 text-sm mb-6">Passionate software engineer crafting elegant solutions to complex problems.</p>
           <div className="flex gap-4">
@@ -25,7 +25,7 @@ function Footer() {
               <i className="fab fa-github text-xl"></i>
             </a>
           </div>
-        </div>
+        </div>                                    
 
         {/* Quick Links Card */}
         <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 border-2 border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
@@ -62,7 +62,7 @@ function Footer() {
         </div>
 
         {/* Contact Card */}
-        <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 border-2 border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
+        {/* <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 border-2 border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
           <h4 className="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Contact</h4>
           <ul className="space-y-4">
             <li className="flex items-center gap-3 text-zinc-500 text-sm">
@@ -82,10 +82,10 @@ function Footer() {
               <span>Casablanca, Morocco</span>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Newsletter Card */}
-        <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 border-2 border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
+        {/* <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 border-2 border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
           <h4 className="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Newsletter</h4>
           <p className="text-zinc-500 text-sm mb-6">Subscribe to receive updates and news.</p>
           <div className="flex gap-3">
@@ -98,7 +98,7 @@ function Footer() {
               <i className="fas fa-paper-plane text-xl"></i>
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Copyright */}
