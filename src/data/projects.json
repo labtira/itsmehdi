@@ -16,16 +16,9 @@
       "image": "/img/Projects/valuedlogo.png",
       "technologies": ["Illustrator"]
     },
+    
     {
       "id": 3,
-      "title": "Weblink Website",
-      "category": "web",
-      "description": "A modern website for a web design agency.",
-      "image": "/img/Projects/weblink.png",
-      "technologies": ["React", "Tailwind CSS"]
-    },
-    {
-      "id": 4,
       "title": "Postex Logo",
       "category": "design",
       "description": "A modern logo for a post office.",
@@ -33,7 +26,7 @@
       "technologies": ["Illustrator"]
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Postex Website",
       "category": "web",
       "description": "A modern website for a post office.",
@@ -41,7 +34,7 @@
       "technologies": ["React", "Tailwind CSS"]
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Refined Logo",
       "category": "design",
       "description": "A modern logo for a online school.",
@@ -49,7 +42,7 @@
       "technologies": ["Illustrator"]
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Weblink Logo",
       "category": "design",
       "description": "A modern logo for a web design agency.",
@@ -57,11 +50,19 @@
       "technologies": ["Illustrator"]
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "Valued Website",
       "category": "web",
       "description": "A modern website for a digital services agency.",
       "image": "/img/Projects/valuedweb.png",
+      "technologies": ["React", "Tailwind CSS"]
+    },
+    {
+      "id": 8,
+      "title": "Weblink Website",
+      "category": "web",
+      "description": "A modern website for a web design agency.",
+      "image": "/img/Projects/weblink.png",
       "technologies": ["React", "Tailwind CSS"]
     }
   ]
