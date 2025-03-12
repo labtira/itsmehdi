@@ -41,7 +41,7 @@ function Projects() {
   }
 
   return (
-    <div className="min-h-screen bg-black text-white p-4 ">
+    <div className=" bg-black text-white p-4 ">
       <div className="w-full mx-auto md:px-6 md:max-w-screen-md">
         {/* Header */}
         <div className="flex justify-between items-center mb-12">

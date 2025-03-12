@@ -9,7 +9,7 @@ function Home() {
   const featuredProjects = projectsData.projects.slice(0, 4)
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className=" bg-black text-white">
       <div className="max-w-full md:max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16 xl:py-20">
 
         {/* Services Section */}
