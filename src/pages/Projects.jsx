@@ -125,7 +125,7 @@ function Projects() {
                 <h3 className="text-xl lg:text-2xl font-bold my-4 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
                   {project.title}
                 </h3>
-                <p className="text-zinc-500 mb-6 text-base">
+                <p className="text-zinc-500 mb-6 text-xs">
                   {project.description}
                 </p>
                 <Link 
@@ -142,7 +142,7 @@ function Projects() {
         </div>
 
         {/* Pagination */}
-        <div className="flex justify-center gap-2">
+        <div className="flex justify-center gap-2 mb-12">
           {Array.from({ length: totalPages }, (_, i) => i + 1).map((number) => (
             <button
               key={number}

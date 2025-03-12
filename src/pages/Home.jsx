@@ -5,8 +5,8 @@ import logo1 from '../assets/img/logo1.png'
 import projectsData from '../data/projects.json'
 
 function Home() {
-  // Get first 3 projects
-  const featuredProjects = projectsData.projects.slice(0, 2)
+  // Get first 4 projects
+  const featuredProjects = projectsData.projects.slice(0, 4)
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -128,7 +128,7 @@ function Home() {
                   <h3 className="text-xl lg:text-2xl font-bold my-4 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
                     {project.title}
                   </h3>
-                  <p className="text-zinc-500 mb-6 text-base">
+                  <p className="text-zinc-500 mb-6 text-xs">
                     {project.description}
                   </p>
                   <Link 

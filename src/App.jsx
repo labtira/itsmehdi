@@ -12,7 +12,7 @@ function App() {
     <div className="min-h-screen bg-black text-white">
       <div className="">
         <Helmet>
-          <title>MEHDI, SOFTWARE ENGINEER, GRAPHIC DESIGNER</title>
+          <title>MEHDI, Software Engineer, Graphic Designer</title>
           <meta name="description" content="Mehdi is a software engineer and graphic designer with a passion for creating beautiful and functional websites and applications." />
         </Helmet>
         <Routes>

@@ -23,7 +23,7 @@ function ProjectDetails() {
   }
 
   return (
-    <div className="min-h-screen bg-black text-white ">
+    <div className=" bg-black text-white md:p-4 ">
       <div className="w-full mx-auto md:px-6 md:max-w-screen-md p-4 sm:p-0">
         {/* Header */}
         <div className="flex justify-between items-center mb-12 ">
@@ -50,7 +50,7 @@ function ProjectDetails() {
             </div>
 
             {/* Project Info */}
-            <div className="grid gap-8">
+            <div className="grid gap-8 mb-14">
               <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 md:p-8 border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
                 <h1 className="text-3xl lg:text-5xl font-bold mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
                   {project.title}
