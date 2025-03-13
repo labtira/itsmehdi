@@ -45,7 +45,7 @@ function Contact() {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
               Get in Touch
             </h2>
-            <p className="text-zinc-500 mb-8 text-lg">
+            <p className="text-zinc-500 mb-8 text-xs">
               Have a question or want to work together? Feel free to reach out!
             </p>
             <div className="space-y-6">
@@ -56,7 +56,7 @@ function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Email</h3>
-                    <p className="text-zinc-500 text-sm">itsmehdi.co.0707547044@gmail.com</p>
+                    <p className="text-zinc-500 text-xs">itsmehdi.co.0707547044@gmail.com</p>
                   </div>
                 </div>
               </a>
@@ -67,7 +67,7 @@ function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Phone</h3>
-                    <p className="text-zinc-500 text-sm">+212 707 547 044</p>
+                    <p className="text-zinc-500 text-xs">+212 707 547 044</p>
                   </div>
                 </div>
               </a>
@@ -78,7 +78,7 @@ function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Location</h3>
-                    <p className="text-zinc-500 text-sm">Casablanca, Morocco</p>
+                    <p className="text-zinc-500 text-xs">Casablanca, Morocco</p>
                   </div>
                 </div>
               </a>
