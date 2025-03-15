@@ -35,7 +35,7 @@ function Navbar() {
               className={`flex-1 flex items-center justify-center rounded-xl font-medium transition-all duration-300 ease-out group focus:outline-none ${location.pathname === link.path ? 'text-white' : 'text-zinc-400 [@media(hover:hover)]:hover:text-white'}`}
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             >
-              <div className={`flex justify-center items-center p-3 w-[60px] h-[60px] rounded-xl transition-all duration-300 ease-out ${location.pathname === link.path ? 'bg-white/20 backdrop-blur-md shadow-[0_4px_12px_rgba(255,255,255,0.05)]' : '[@media(hover:hover)]:group-hover:bg-white/5'}`}>
+              <div className={`flex justify-center items-center p-3 w-[60px] h-[60px] rounded-xl transition-all duration-300 ease-out ${location.pathname === link.path ? 'bg-white text-black backdrop-blur-md shadow-[0_4px_12px_rgba(255,255,255,0.05)]' : '[@media(hover:hover)]:group-hover:bg-white/5'}`}>
                 {link.icon} 
               </div>
             </Link>
