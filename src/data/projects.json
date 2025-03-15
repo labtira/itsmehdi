@@ -12,7 +12,7 @@
       "id": 2,
       "title": "Valued Logo",
       "category": "design",
-      "description": "A modern logo for a digital services agency.",
+      "description": "A modern logo for an online school.",
       "image": "/img/Projects/valuedlogo.png",
       "technologies": ["Illustrator"]
     },
@@ -37,7 +37,7 @@
       "id": 5,
       "title": "Refined Logo",
       "category": "design",
-      "description": "A modern logo for a online school.",
+      "description": "A modern logo for a rental car company.",
       "image": "/img/Projects/refinedlogo.png",
       "technologies": ["Illustrator"]
     },
@@ -53,7 +53,7 @@
       "id": 7,
       "title": "Valued Website",
       "category": "web",
-      "description": "A modern website for a digital services agency.",
+      "description": "A modern website for an online school.",
       "image": "/img/Projects/valuedweb.png",
       "technologies": ["React", "Tailwind CSS"]
     },
