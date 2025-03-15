@@ -6,11 +6,13 @@ import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="min-h-screen bg-black text-white">
-      <div className="">
+      <div>
+        <Navbar />
         <Helmet>
           <title>MEHDI, Software Engineer, Graphic Designer</title>
           <meta name="description" content="Mehdi is a software engineer and graphic designer with a passion for creating beautiful and functional websites and applications." />
