@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import gif from '../assets/img/gif1.gif'
 import logo1 from '../assets/img/logo1.png'
 import projectsData from '../data/projects.json'
+import Footer from '../components/Footer'
 
 function Home() {
   // Get first 4 projects
@@ -160,6 +161,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

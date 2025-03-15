@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import projectsData from '../data/projects.json'
+import Footer from '../components/Footer'
 
 function ProjectDetails() {
   const { id } = useParams()
@@ -90,6 +91,7 @@ function ProjectDetails() {
           </div>
         )}
       </div>
+      <Footer/>
     </div>
   )
 }

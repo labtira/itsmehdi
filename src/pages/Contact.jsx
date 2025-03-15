@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import logo1 from '../assets/img/logo1.png'
+import Footer from '../components/Footer'
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -26,7 +27,7 @@ function Contact() {
 
   return (
     <div className=" bg-black text-white p-4 mb-12 md:p-8 lg:p-12 xl:p-16">
-      <div className="w-full mx-auto md:px-6 md:max-w-screen-md">
+      <div className="w-full mx-auto md:px-6 md:max-w-screen-md mb-16">
         {/* Header */}
         <div className="flex justify-between items-center mb-12">
           <Link 
@@ -169,6 +170,7 @@ function Contact() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

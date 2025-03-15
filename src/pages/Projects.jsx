@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import projectsData from '../data/projects.json'
 import logo1 from '../assets/img/logo1.png'
+import Footer from '../components/Footer'
 
 function Projects() {
   const [currentPage, setCurrentPage] = useState(1)
@@ -160,6 +161,7 @@ function Projects() {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }
