@@ -75,7 +75,7 @@ function ProjectDetails() {
                   href={project.link} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="px-8 py-4 bg-gradient-to-r from-[#111111] to-[#1A1A1A] rounded-xl inline-flex items-center gap-3 hover:from-[#1A1A1A] hover:to-[#222222] transition-all text-lg border border-[#222222] hover:border-[#333333] shadow-md group"
+                  className="px-8 py-2 bg-gradient-to-r from-[#111111] to-[#1A1A1A] rounded-lg inline-flex items-center gap-3 hover:from-[#1A1A1A] hover:to-[#222222] transition-all text-sm border border-[#222222] hover:border-[#333333] shadow-md group"
                 >
                   Visit Project
                   <svg className="w-6 h-6 transform group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none">
