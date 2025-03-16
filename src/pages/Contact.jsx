@@ -1,29 +1,36 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-
 import logo1 from '../assets/img/logo1.png'
 import Footer from '../components/Footer'
+import emailjs from '@emailjs/browser'
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  })
+ 
 
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
+  const [emailStatus, setEmailStatus] = useState('');
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setEmailStatus('sending');
+
+    emailjs.sendForm(
+      'service_i6kyn7p',
+      'template_kjs1vzn',
+      e.target,
+      'user_HBjwnJdTNK2ERTsPZvpMg'
+    )
+    .then((result) => {
+      setEmailStatus('success');
+      e.target.reset();
+      setTimeout(() => setEmailStatus(''), 3000);
     })
+    .catch((error) => {
+      setEmailStatus('error');
+      setTimeout(() => setEmailStatus(''), 3000);
+    });
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    // Handle form submission here
-    console.log(formData)
-  }
+  
 
   return (
     <div className=" bg-black text-white mb-12 md:p-8 lg:p-12 xl:p-16">
@@ -128,18 +135,31 @@ function Contact() {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
               Send Message
             </h2>
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={sendEmail}>
+              {emailStatus === 'sending' && (
+                <div className="text-blue-400 text-sm mb-4">Sending message...</div>
+              )}
+              {emailStatus === 'success' && (
+                <div className="text-green-400 text-sm mb-4">Message sent successfully!</div>
+              )}
+              {emailStatus === 'error' && (
+                <div className="text-red-400 text-sm mb-4">Failed to send message. Please try again.</div>
+              )}
               <div>
                 <input 
                   type="text" 
+                  name="name"
                   placeholder="Your Name" 
+                  required
                   className="w-full bg-[#1A1A1A] border border-[#222222] rounded-xl px-4 py-3 text-base focus:outline-none focus:border-[#333333] hover:border-[#333333] placeholder-zinc-600 transition-colors"
                 />
               </div>
               <div>
                 <input 
                   type="email" 
+                  name='email'
                   placeholder="your@email.com" 
+                  required
                   className="w-full bg-[#1A1A1A] border border-[#222222] rounded-xl px-4 py-3 text-base focus:outline-none focus:border-[#333333] hover:border-[#333333] placeholder-zinc-600 transition-colors"
                 />
               </div>
@@ -147,13 +167,17 @@ function Contact() {
                 <input 
                   type="text" 
                   placeholder="Subject" 
+                  name="title"
+                  required
                   className="w-full bg-[#1A1A1A] border border-[#222222] rounded-xl px-4 py-3 text-base focus:outline-none focus:border-[#333333] hover:border-[#333333] placeholder-zinc-600 transition-colors"
                 />
               </div>
               <div>
                 <textarea 
                   placeholder="Your Message" 
+                  name='message'
                   rows="4" 
+                  required
                   className="w-full bg-[#1A1A1A] border border-[#222222] rounded-xl px-4 py-3 text-base focus:outline-none focus:border-[#333333] hover:border-[#333333] placeholder-zinc-600 transition-colors resize-none"
                 ></textarea>
               </div>
@@ -175,4 +199,4 @@ function Contact() {
   )
 }
 
-export default Contact 
+export default Contact
