@@ -33,7 +33,7 @@ function Contact() {
   
 
   return (
-    <div className=" bg-black text-white mb-12 md:p-8 lg:p-12 xl:p-16">
+    <div className=" text-white mb-12 md:p-8 lg:p-12 xl:p-16">
       <div className="w-full mx-auto md:px-6 p-4 md:max-w-screen-md mb-16">
         {/* Header */}
         <div className="flex justify-between items-center mb-12">

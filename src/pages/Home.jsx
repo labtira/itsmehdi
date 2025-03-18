@@ -25,7 +25,7 @@ function Home() {
               />
             </div>
             <div className="flex flex-col gap-2">
-              <span className="px-4 py-2 bg-gradient-to-r from-[#111111] to-[#1A1A1A] rounded-lg text-xs  border border-[#222222] hover:border-[#333333] transition-colors shadow-md">Software Engineering</span>
+              <span className="px-4 py-2 bg-gradient-to-r from-[#111111] to-[#1a1a1a] rounded-lg text-xs  border border-[#222222] hover:border-[#333333] transition-colors shadow-md">Software Engineering</span>
               <span className="px-4 py-2 bg-gradient-to-r from-[#111111] to-[#1A1A1A] rounded-lg text-xs  border border-[#222222] hover:border-[#333333] transition-colors shadow-md">Graphic Design</span>
             </div>
           </div>

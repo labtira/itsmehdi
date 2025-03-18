@@ -8,7 +8,7 @@ function ProjectDetails() {
 
   if (!project) {
     return (
-      <div className=" bg-[#0A0A0A] text-white p-4 flex flex-col items-center">
+      <div className="text-white p-4 flex flex-col items-center">
         <div className="text-center">
           <h1 className="text-3xl font-bold mb-4">Project Not Found</h1>
           <Link 

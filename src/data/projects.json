@@ -6,7 +6,8 @@
       "category": "web",
       "description": "A modern website for a car rental company.",
       "image": "/img/Projects/MCars.png",
-      "technologies": ["React", "Tailwind CSS"]
+      "technologies": ["React", "Tailwind CSS"],
+      "link": "https://moroccancars.pages.dev/"
     },
     {
       "id": 2,
@@ -14,16 +15,17 @@
       "category": "design",
       "description": "A modern logo for an online school.",
       "image": "/img/Projects/valuedlogo.png",
-      "technologies": ["Illustrator"]
+      "technologies": ["Illustrator"],
+      "link": "https://valued.edu/brand"
     },
-    
     {
       "id": 3,
       "title": "Postex Logo",
       "category": "design",
       "description": "A modern logo for a post office.",
       "image": "/img/Projects/postexlogo.png",
-      "technologies": ["Illustrator"]
+      "technologies": ["Illustrator"],
+      "link": "https://postex.com/brand"
     },
     {
       "id": 4,
@@ -31,7 +33,8 @@
       "category": "web",
       "description": "A modern website for a post office.",
       "image": "/img/Projects/webpostex.png",
-      "technologies": ["React", "Tailwind CSS"]
+      "technologies": ["React", "Tailwind CSS"],
+      "link": "https://postex.com"
     },
     {
       "id": 5,
@@ -39,7 +42,8 @@
       "category": "design",
       "description": "A modern logo for a rental car company.",
       "image": "/img/Projects/refinedlogo.png",
-      "technologies": ["Illustrator"]
+      "technologies": ["Illustrator"],
+      "link": "https://refined.com/brand"
     },
     {
       "id": 6,
@@ -47,7 +51,8 @@
       "category": "design",
       "description": "A modern logo for a web design agency.",
       "image": "/img/Projects/weblinklogo.png",
-      "technologies": ["Illustrator"]
+      "technologies": ["Illustrator"],
+      "link": "https://weblink.design/brand"
     },
     {
       "id": 7,
@@ -55,7 +60,8 @@
       "category": "web",
       "description": "A modern website for an online school.",
       "image": "/img/Projects/valuedweb.png",
-      "technologies": ["React", "Tailwind CSS"]
+      "technologies": ["React", "Tailwind CSS"],
+      "link": "https://valued.edu"
     },
     {
       "id": 8,
@@ -63,7 +69,8 @@
       "category": "web",
       "description": "A modern website for a web design agency.",
       "image": "/img/Projects/weblink.png",
-      "technologies": ["React", "Tailwind CSS"]
+      "technologies": ["React", "Tailwind CSS"],
+      "link": "https://weblink.design"
     }
   ]
-} 
+}
