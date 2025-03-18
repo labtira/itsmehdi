@@ -64,7 +64,7 @@ function Projects() {
                 onClick={() => handleCategoryChange('all')}
                 className={`relative flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                   activeCategory === 'all' 
-                    ? 'text-white bg-gradient-to-r from-[#1A1A1A] to-[#0f0f0f] shadow-lg border border-[#1A1A1A]' 
+                    ? 'text-white bg-gradient-to-r from-[#1A1A1A] to-[#0f0f0f] shadow-lg ' 
                     : 'text-zinc-500 hover:text-zinc-300'
                 }`}
               >
@@ -75,7 +75,7 @@ function Projects() {
                 onClick={() => handleCategoryChange('web')}
                 className={`relative flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                   activeCategory === 'web' 
-                    ? 'text-white bg-gradient-to-r from-[#1A1A1A] to-[#0f0f0f] shadow-lg border border-[#1A1A1A]' 
+                    ? 'text-white bg-gradient-to-r from-[#1A1A1A] to-[#0f0f0f] shadow-lg ' 
                     : 'text-zinc-500 hover:text-zinc-300'
                 }`}
               >
@@ -86,7 +86,7 @@ function Projects() {
                 onClick={() => handleCategoryChange('design')}
                 className={`relative flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                   activeCategory === 'design' 
-                    ? 'text-white bg-gradient-to-r from-[#1A1A1A] to-[#0f0f0f] shadow-lg border border-[#1A1A1A]' 
+                    ? 'text-white bg-gradient-to-r from-[#1A1A1A] to-[#0f0f0f] shadow-lg ' 
                     : 'text-zinc-500 hover:text-zinc-300'
                 }`}
               >
