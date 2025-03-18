@@ -155,7 +155,7 @@ function Home() {
                 <Link 
                   to="/projects"
                   onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                  className="px-6 py-2 bg-white text-black font-bold rounded-lg flex items-center gap-3 hover:from-[#1A1A1A] hover:to-[#000000] transition-all text-md border border-[#222222] hover:border-[#333333] shadow-md group focus:outline-none"
+                  className="px-6 py-2 bg-gradient-to-r from-[#111111] to-[#000000]k font-bold rounded-lg flex items-center gap-3 hover:from-[#1A1A1A] hover:to-[#000000] transition-all text-md border border-[#222222] hover:border-[#333333] shadow-md group focus:outline-none"
                 >
                   More
                   <svg className="w-5 h-5 lg:w-6 lg:h-6 transform group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none">
