@@ -49,7 +49,7 @@ function Contact() {
         {/* Contact Form Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
           {/* Contact Info */}
-          <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#000000] p-6 md:p-8 border-2 border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
+          <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#000000] p-6 md:p-8 border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
               Get in Touch
             </h2>
@@ -131,7 +131,7 @@ function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#000000] p-6 md:p-8 border-2 border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
+          <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#000000] p-6 md:p-8 border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
               Send Message
             </h2>

@@ -25,7 +25,7 @@ function Footer() {
         </div>                                    
 
         {/* Quick Links Card */}
-        <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#000000] p-6 border-2 border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
+        <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#000000] p-6 border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
           <h4 className="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Quick Links</h4>
           <ul className="space-y-4">
             <li>
@@ -120,4 +120,4 @@ function Footer() {
   )
 }
 
-export default Footer 
+export default Footer

@@ -23,45 +23,47 @@ function ProjectDetails() {
       </div>
     )
   }
-
+else {  
   return (
-    <div className=" bg-black text-white md:p-4 ">
+    <main className="bg-black text-white md:p-4" role="main">
       <div className="w-full mx-auto md:px-6 md:max-w-screen-md p-4 sm:p-0">
         {/* Header */}
-        <div className="flex justify-between items-center mb-12 ">
+        <nav className="flex justify-between items-center mb-12" aria-label="Project navigation">
           <Link 
             to="/projects" 
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-[#111111] to-[#1A1A1A] border border-[#222222] hover:border-[#333333] transition-all group"
+            aria-label="Back to projects list"
           >
-            <i className="fas fa-arrow-left"></i>
+            <i className="fas fa-arrow-left" aria-hidden="true"></i>
             <span>Back to Projects</span>
           </Link>
-        </div>
+        </nav>
 
         {project ? (
           <div>
             {/* Project Image */}
-            <div className="rounded-[24px] overflow-hidden bg-gradient-to-br from-[#111111] to-[#080808] border border-[#1A1A1A] hover:border-[#222222] transition-all duration-300 shadow-lg mb-8">
+            <section className="rounded-[24px] overflow-hidden bg-gradient-to-br from-[#111111] to-[#080808] border border-[#1A1A1A] hover:border-[#222222] transition-all duration-300 shadow-lg mb-8" aria-label="Project showcase image">
               <div className="aspect-video">
                 <img 
                   src={project.image} 
-                  alt={project.title} 
+                  alt={`Detailed view of ${project.title} project`} 
                   className="w-full h-full object-cover"
                 />
               </div>
-            </div>
+            </section>
 
             {/* Project Info */}
-            <div className="grid gap-8 mb-14">
-              <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 md:p-8 border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
+            <section className="grid gap-8 mb-14" aria-label="Project details">
+              <article className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 md:p-8 border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
                 <h1 className="text-3xl lg:text-5xl font-bold mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
                   {project.title}
                 </h1>
-                <div className="flex flex-wrap gap-2 mb-6">
+                <div className="flex flex-wrap gap-2 mb-6" role="list" aria-label="Technologies used">
                   {project.technologies.map((tech, index) => (
                     <span 
                       key={index}
+                      role="listitem"
                       className="px-3 py-1.5 bg-gradient-to-r from-[#111111] to-[#1A1A1A] rounded-lg text-sm border border-[#222222] text-zinc-500"
                     >
                       {tech}
@@ -76,14 +78,15 @@ function ProjectDetails() {
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="px-8 py-2 bg-gradient-to-r from-[#111111] to-[#1A1A1A] rounded-md inline-flex items-center gap-3 hover:from-[#1A1A1A] hover:to-[#222222] transition-all text-sm border border-[#222222] hover:border-[#333333] shadow-md group"
+                  aria-label={`Visit ${project.title} project website`}
                 >
                   Visit Project
-                  <svg className="w-6 h-6 transform group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none">
+                  <svg className="w-6 h-6 transform group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </a>
-              </div>
-            </div>
+              </article>
+            </section>
           </div>
         ) : (
           <div className="text-center py-12">
@@ -92,8 +95,9 @@ function ProjectDetails() {
         )}
       </div>
       <Footer/>
-    </div>
+    </main>
   )
 }
+}
 
-export default ProjectDetails 
+export default ProjectDetails
