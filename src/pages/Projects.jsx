@@ -49,7 +49,7 @@ function Projects() {
           <Link 
             to="/" 
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-[#111111] to-[#1A1A1A] border border-[#222222] hover:border-[#333333] transition-all group"
+            className="flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-[#111111] to-[#000000] border border-[#222222] hover:border-[#333333] transition-all group"
           >
             <i className="fas fa-arrow-left"></i>
             <span>Back to Home</span>
@@ -58,13 +58,13 @@ function Projects() {
 
         {/* Category Filters */}
         <div className="flex justify-center items-center mb-5">
-          <div className="bg-gradient-to-r from-[#111111] to-[#080808] p-1.5 rounded-full border border-[#1A1A1A] backdrop-blur-lg">
+          <div className="bg-gradient-to-r from-[#111111] to-[#000000] p-1.5 rounded-full border border-[#1A1A1A] backdrop-blur-lg">
             <div className="flex items-center">
               <button
                 onClick={() => handleCategoryChange('all')}
                 className={`relative flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                   activeCategory === 'all' 
-                    ? 'text-white bg-gradient-to-r from-[#1A1A1A] to-[#222222] shadow-lg' 
+                    ? 'text-white bg-gradient-to-r from-[#1A1A1A] to-[#0f0f0f] shadow-lg border border-[#1A1A1A]' 
                     : 'text-zinc-500 hover:text-zinc-300'
                 }`}
               >
@@ -75,7 +75,7 @@ function Projects() {
                 onClick={() => handleCategoryChange('web')}
                 className={`relative flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                   activeCategory === 'web' 
-                    ? 'text-white bg-gradient-to-r from-[#1A1A1A] to-[#222222] shadow-lg' 
+                    ? 'text-white bg-gradient-to-r from-[#1A1A1A] to-[#0f0f0f] shadow-lg border border-[#1A1A1A]' 
                     : 'text-zinc-500 hover:text-zinc-300'
                 }`}
               >
@@ -86,7 +86,7 @@ function Projects() {
                 onClick={() => handleCategoryChange('design')}
                 className={`relative flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                   activeCategory === 'design' 
-                    ? 'text-white bg-gradient-to-r from-[#1A1A1A] to-[#222222] shadow-lg' 
+                    ? 'text-white bg-gradient-to-r from-[#1A1A1A] to-[#0f0f0f] shadow-lg border border-[#1A1A1A]' 
                     : 'text-zinc-500 hover:text-zinc-300'
                 }`}
               >
@@ -102,7 +102,7 @@ function Projects() {
           {currentProjects.map((project) => (
             <div 
               key={project.id} 
-              className={`rounded-[24px] overflow-hidden bg-gradient-to-br from-[#111111] to-[#080808] border-2 border-[#1A1A1A] hover:border-[#222222] transition-all duration-300 shadow-lg group ${
+              className={`rounded-[24px] overflow-hidden bg-gradient-to-br from-[#111111] to-[#000000] border-2 border-[#1A1A1A] hover:border-[#222222] transition-all duration-300 shadow-lg group ${
                 isAnimating ? 'opacity-0 scale-95' : 'opacity-100 scale-100'
               }`}
             >
@@ -118,7 +118,7 @@ function Projects() {
                   {project.technologies.map((tech, index) => (
                     <span 
                       key={index}
-                      className="px-3 py-1.5 bg-gradient-to-r from-[#111111] to-[#1A1A1A] rounded-lg text-sm border border-[#222222] text-zinc-500"
+                      className="px-3 py-1.5 bg-gradient-to-r from-[#111111] to-[#000000] rounded-lg text-sm border border-[#222222] text-zinc-500"
                     >
                       {tech}
                     </span>
@@ -133,7 +133,7 @@ function Projects() {
                 <Link 
                   to={`/projects/${project.id}`}
                   onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                  className="p-4 bg-gradient-to-r from-[#111111] to-[#1A1A1A] rounded-xl hover:from-[#1A1A1A] hover:to-[#222222] transition-all border border-[#222222] hover:border-[#333333] shadow-md group inline-flex"
+                  className="p-4 bg-gradient-to-r from-[#111111] to-[#000000] rounded-xl hover:from-[#1A1A1A] hover:to-[#000000] transition-all border border-[#222222] hover:border-[#333333] shadow-md group inline-flex"
                 >
                   <svg className="w-6 h-6 transform group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none">
                     <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -152,8 +152,8 @@ function Projects() {
               onClick={() => paginate(number)}
               className={`px-4 py-2 rounded-lg text-sm border ${
                 currentPage === number
-                  ? 'bg-gradient-to-r from-[#1A1A1A] to-[#222222] border-[#333333] text-white'
-                  : 'bg-gradient-to-r from-[#111111] to-[#1A1A1A] border-[#222222] text-zinc-500 hover:border-[#333333]'
+                  ? 'bg-gradient-to-r from-[#1A1A1A] to-[#000000] border-[#333333] text-white'
+                  : 'bg-gradient-to-r from-[#111111] to-[#000000] border-[#222222] text-zinc-500 hover:border-[#333333]'
               } transition-all`}
             >
               {number}
