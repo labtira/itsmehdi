@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import projectsData from '../data/projects.json'
 import logo1 from '../assets/img/logo1.png'
 import Footer from '../components/Footer'
+import LogoNavbar from '../components/LogoNavbar'
 
 function Projects() {
   const [currentPage, setCurrentPage] = useState(1)
@@ -43,21 +44,12 @@ function Projects() {
 
   return (
     <div className=" text-white  ">
-      <div className="w-full mx-auto p-4 md:px-6 md:max-w-screen-md">
-        {/* Header */}
-        <div className="flex justify-between items-center mb-12">
-          <Link 
-            to="/" 
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-[#111111] to-[#000000] border border-[#222222] hover:border-[#333333] transition-all group"
-          >
-            <i className="fas fa-arrow-left"></i>
-            <span>Back to Home</span>
-          </Link>
-        </div>
+      <div className="max-w-full md:max-w-screen-md mx-auto px-8 md:px-16  py-12 ">
+        <LogoNavbar />
+        
 
         {/* Category Filters */}
-        <div className="flex justify-center items-center mb-5">
+        <div className="flex justify-center items-center mb-5 mt-16">
           <div className="bg-gradient-to-r from-[#111111] to-[#000000] p-1.5 rounded-full border border-[#1A1A1A] backdrop-blur-lg">
             <div className="flex items-center">
               <button
@@ -160,8 +152,9 @@ function Projects() {
             </button>
           ))}
         </div>
+        <Footer/>
       </div>
-      <Footer/>
+      
     </div>
   )
 }

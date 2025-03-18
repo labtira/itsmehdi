@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import gif from '../assets/img/gif1.gif'
-import logo1 from '../assets/img/logo1.png'
 import profil from '../assets/img/profil.png'
 import projectsData from '../data/projects.json'
 import Footer from '../components/Footer'
+import LogoNavbar from '../components/LogoNavbar'
 
 function Home() {
   // Get first 4 projects
@@ -15,17 +15,13 @@ function Home() {
 
 
 
-      <div className="max-w-full md:max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 py-12  ">
+      <div className="max-w-full md:max-w-screen-md mx-auto px-8 md:px-16 py-12  ">
 
-      <div className="fixed top-0 right-0 left-0 z-50 py-4 px-7 md:px-48 ">
-          <div className='w-full flex justify-center transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30 border rounded-3xl border-[#222222] shadow-[0_-8px_32px_rgba(0,0,0,0.12)] py-4 md:mx-auto md:max-w-screen-sm'>
-            <img src={logo1} alt="Logo" className="h-10" />
-          </div>
-        </div>
+        <LogoNavbar />
 
         {/* Hero Section */}
         <div className="bg-black text-white pt-8">
-          <div className="max-w-full md:max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="max-w-full md:max-w-screen-md mx-auto  py-8">
             {/* Services Section */}
             <div className="flex flex-col md:flex-row gap-6  mb-6 ">
               {/* Services Card */}
@@ -34,7 +30,7 @@ function Home() {
                   <img 
                     src={profil}
                     alt="Landscape" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover rounded-[16px] border border-[#222222] hover:border-[#333333]"
                   />
                 </div>
                 <div className="flex flex-col gap-2">
@@ -71,12 +67,7 @@ function Home() {
                   >
                     <i className="fab fa-whatsapp text-xl"></i>
                   </a>
-                  <a 
-                    href="https://github.com/labtira" 
-                    className="w-12 h-12 rounded-full bg-gradient-to-r from-[#111111] to-[#000000] flex items-center justify-center border border-[#222222] hover:border-[#333333] transition-all hover:scale-105 focus:outline-none"
-                  >
-                    <i className="fab fa-github text-xl"></i>
-                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -174,11 +165,9 @@ function Home() {
               </div>
             </div>
           </div>
-          <Footer/>
+          
         </div>
-      
-
-        
+        <Footer/>
     </div>
     </div>
   )

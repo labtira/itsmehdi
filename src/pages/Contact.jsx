@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import logo1 from '../assets/img/logo1.png'
 import Footer from '../components/Footer'
 import emailjs from '@emailjs/browser'
+import LogoNavbar from '../components/LogoNavbar'
 
 function Contact() {
  
@@ -33,21 +34,13 @@ function Contact() {
   
 
   return (
-    <div className=" text-white mb-12 md:p-8 lg:p-12 xl:p-16">
-      <div className="w-full mx-auto md:px-6 p-4 md:max-w-screen-md mb-16">
-        {/* Header */}
-        <div className="flex justify-between items-center mb-12">
-          <Link 
-            to="/" 
-            className="flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-[#111111] to-[#000000] border border-[#222222] hover:border-[#333333] transition-all group"
-          >
-            <i className="fas fa-arrow-left"></i>
-            <span>Back to Home</span>
-          </Link>
-        </div>
+    <div className=" text-white mb-12 pt-10">
+      <div className="w-full mx-auto  px-8 md:px-16 md:max-w-screen-md ">
+        <LogoNavbar />
+        
 
         {/* Contact Form Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mt-24 mb-16">
           {/* Contact Info */}
           <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#000000] p-6 md:p-8 border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
@@ -120,12 +113,7 @@ function Contact() {
                 >
                   <i className="fab fa-whatsapp text-xl"></i>
                 </a>
-                <a 
-                  href="https://github.com/itsmehdi-dev" 
-                  className="w-12 h-12 rounded-full bg-gradient-to-r from-[#111111] to-[#000000] flex items-center justify-center border border-[#222222] hover:border-[#333333] transition-all hover:scale-105 focus:outline-none"
-                >
-                  <i className="fab fa-github text-xl"></i>
-                </a>
+                
               </div>
             </div>
           </div>
@@ -193,8 +181,9 @@ function Contact() {
             </form>
           </div>
         </div>
+        <Footer/>
       </div>
-      <Footer/>
+      
     </div>
   )
 }

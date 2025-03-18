@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom'
 import projectsData from '../data/projects.json'
 import Footer from '../components/Footer'
+import LogoNavbar from '../components/LogoNavbar'
 
 function ProjectDetails() {
   const { id } = useParams()
@@ -26,24 +27,14 @@ function ProjectDetails() {
 else {  
   return (
     <main className="bg-black text-white md:p-4" role="main">
-      <div className="w-full mx-auto md:px-6 md:max-w-screen-md p-4 sm:p-0">
-        {/* Header */}
-        <nav className="flex justify-between items-center mb-12" aria-label="Project navigation">
-          <Link 
-            to="/projects" 
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="flex items-center gap-2 px-6 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-[#111111] to-[#1A1A1A] border border-[#222222] hover:border-[#333333] transition-all group"
-            aria-label="Back to projects list"
-          >
-            <i className="fas fa-arrow-left" aria-hidden="true"></i>
-            <span>Back to Projects</span>
-          </Link>
-        </nav>
+      <div className="w-full mx-auto md:px-6 md:max-w-screen-md px-8 pt-6 ">
+        <LogoNavbar />
+        
 
         {project ? (
           <div>
             {/* Project Image */}
-            <section className="rounded-[24px] overflow-hidden bg-gradient-to-br from-[#111111] to-[#080808] border border-[#1A1A1A] hover:border-[#222222] transition-all duration-300 shadow-lg mb-8" aria-label="Project showcase image">
+            <section className="rounded-[24px] overflow-hidden bg-gradient-to-br from-[#111111] to-[#080808] border border-[#1A1A1A] hover:border-[#222222] transition-all duration-300 shadow-lg mb-8 mt-24" aria-label="Project showcase image">
               <div className="aspect-video">
                 <img 
                   src={project.image} 
@@ -93,8 +84,9 @@ else {
             <p className="text-zinc-500 text-lg">Project not found.</p>
           </div>
         )}
+        <Footer/>
       </div>
-      <Footer/>
+      
     </main>
   )
 }
