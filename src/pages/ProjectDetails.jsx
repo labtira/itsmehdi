@@ -27,7 +27,7 @@ function ProjectDetails() {
 else {  
   return (
     <main className="bg-black text-white md:p-4" role="main">
-      <div className="w-full mx-auto md:px-6 md:max-w-screen-md px-8 pt-6 ">
+      <div className="w-full mx-auto md:px-16 md:max-w-screen-md px-8 pt-6 ">
         <LogoNavbar />
         
 
