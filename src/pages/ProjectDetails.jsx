@@ -33,7 +33,7 @@ else {
         {project ? (
           <div>
             {/* Project Image */}
-            <section className="rounded-[16px] overflow-hidden bg-gradient-to-br from-[#111111] to-[#080808] border border-[#1A1A1A] hover:border-[#222222] transition-all duration-300 shadow-lg mb-8 mt-24 md:mt-20" aria-label="Project showcase image">
+            <section className="rounded-[16px] overflow-hidden bg-gradient-to-br from-[#111111] to-[#080808] border border-[#323232] transition-all duration-300 shadow-lg mb-8 mt-24 md:mt-20" aria-label="Project showcase image">
               <div className="aspect-video">
                 <img 
                   src={project.image} 
@@ -45,7 +45,7 @@ else {
 
             {/* Project Info */}
             <section className="grid gap-8 mb-14" aria-label="Project details">
-              <article className="rounded-[16px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 md:p-8 border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
+              <article className="rounded-[16px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 md:p-8 border border-[#323232] transition-colors shadow-lg">
                 <h1 className="text-xl lg:text-3xl font-bold mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
                   {project.title}
                 </h1>
