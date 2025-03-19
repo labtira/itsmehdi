@@ -130,7 +130,7 @@ function Home() {
                           </span>
                         ))}
                       </div>
-                      <h3 className="text-xl lg:text-2xl font-bold my-4 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
+                      <h3 className="text-lg lg:text-xl font-bold my-4 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
                         {project.title}
                       </h3>
                       <p className="text-zinc-500 mb-6 text-xs">

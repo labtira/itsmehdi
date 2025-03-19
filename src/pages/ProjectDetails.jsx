@@ -47,7 +47,7 @@ else {
             {/* Project Info */}
             <section className="grid gap-8 mb-14" aria-label="Project details">
               <article className="rounded-[16px] bg-gradient-to-br from-[#111111] to-[#080808] p-6 md:p-8 border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
-                <h1 className="text-3xl lg:text-5xl font-bold mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
+                <h1 className="text-xl lg:text-3xl font-bold mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
                   {project.title}
                 </h1>
                 <div className="flex flex-wrap gap-2 mb-6" role="list" aria-label="Technologies used">
