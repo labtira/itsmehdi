@@ -27,14 +27,14 @@ function ProjectDetails() {
 else {  
   return (
     <main className="bg-black text-white md:p-4" role="main">
-      <div className="w-full mx-auto md:px-16 md:max-w-screen-md px-8 pt-6 ">
+      <div className="w-full mx-auto md:px-16 md:max-w-screen-md px-8 pt-4">
         <LogoNavbar />
         
 
         {project ? (
           <div>
             {/* Project Image */}
-            <section className="rounded-[16px] overflow-hidden bg-gradient-to-br from-[#111111] to-[#080808] border border-[#1A1A1A] hover:border-[#222222] transition-all duration-300 shadow-lg mb-8 mt-24" aria-label="Project showcase image">
+            <section className="rounded-[16px] overflow-hidden bg-gradient-to-br from-[#111111] to-[#080808] border border-[#1A1A1A] hover:border-[#222222] transition-all duration-300 shadow-lg mb-8 mt-20" aria-label="Project showcase image">
               <div className="aspect-video">
                 <img 
                   src={project.image} 
