@@ -5,7 +5,7 @@ function Footer() {
     <footer className="">
       <div className="max-w-full md:max-w-screen-md mx-auto  grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* About Card */}
-          <div className="rounded-[16px] bg-gradient-to-br from-[#111111] to-[#000000] p-6 border-2 border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
+          <div className="rounded-[16px] bg-gradient-to-br from-[#111111] to-[#000000] p-6 border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
           <h4 className="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">About Me</h4>
           <p className="text-zinc-500 text-sm mb-6">Passionate software engineer crafting elegant solutions to complex problems.</p>
           <div className="flex gap-4">
