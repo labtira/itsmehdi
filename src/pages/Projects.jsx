@@ -50,7 +50,7 @@ function Projects() {
 
         {/* Category Filters */}
         <div className="flex justify-center items-center mb-5 mt-16">
-          <div className="bg-gradient-to-r from-[#111111] to-[#000000] p-1.5 rounded-full border border-[#1A1A1A] backdrop-blur-lg">
+          <div className="bg-gradient-to-r from-[#111111] to-[#000000] p-1.5 rounded-full border border-[#323232] backdrop-blur-lg">
             <div className="flex items-center">
               <button
                 onClick={() => handleCategoryChange('all')}
