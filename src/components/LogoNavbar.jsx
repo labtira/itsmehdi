@@ -6,7 +6,7 @@ function LogoNavbar() {
   const isHomePage = location.pathname === '/';
 
   return (
-    <div className="fixed top-0 right-0 left-0 z-50 py-4 px-8 ">
+    <div className="fixed top-0 right-0 left-0 z-50 py-4 px-5 ">
      <Link 
             to="/" 
             >

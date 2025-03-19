@@ -35,7 +35,7 @@ function Contact() {
 
   return (
     <div className=" text-white mb-12 pt-4">
-      <div className="w-full mx-auto  px-8 md:px-16 md:max-w-screen-md ">
+      <div className="w-full mx-auto  px-5 md:px-16 md:max-w-screen-md ">
         <LogoNavbar />
         
         {/* Contact Form Section */}

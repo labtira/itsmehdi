@@ -44,7 +44,7 @@ function Projects() {
 
   return (
     <div className=" text-white  ">
-      <div className="max-w-full md:max-w-screen-md mx-auto px-8 md:px-16  py-12 ">
+      <div className="max-w-full md:max-w-screen-md mx-auto px-5 md:px-16  py-12 ">
         <LogoNavbar />
         
 
