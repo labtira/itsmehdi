@@ -94,7 +94,7 @@ function Projects() {
           {currentProjects.map((project) => (
             <div 
               key={project.id} 
-              className={`rounded-[24px] overflow-hidden bg-gradient-to-br from-[#111111] to-[#000000] border border-[#1A1A1A] hover:border-[#222222] transition-all duration-300 shadow-lg group ${
+              className={`rounded-[16px] overflow-hidden bg-gradient-to-br from-[#111111] to-[#000000] border border-[#1A1A1A] hover:border-[#222222] transition-all duration-300 shadow-lg group ${
                 isAnimating ? 'opacity-0 scale-95' : 'opacity-100 scale-100'
               }`}
             >

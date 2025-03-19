@@ -25,7 +25,7 @@ function Home() {
             {/* Services Section */}
             <div className="flex flex-col md:flex-row gap-6  mb-6 ">
               {/* Services Card */}
-              <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#000000] p-4 flex flex-row items-center gap-3  border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg flex-grow">
+              <div className="rounded-[16px] bg-gradient-to-br from-[#111111] to-[#000000] p-4 flex flex-row items-center gap-3  border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg flex-grow">
                 <div className="w-[80px] aspect-square rounded-[16px] overflow-hidden bg-gradient-to-br from-[#1A1A1A] to-[#111111] shadow-xl">
                   <img 
                     src={profil}
@@ -40,7 +40,7 @@ function Home() {
               </div>
 
               {/* Social Links Card */}
-              <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#000000] p-4 border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
+              <div className="rounded-[16px] bg-gradient-to-br from-[#111111] to-[#000000] p-4 border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
                 <h3 className="text-lg font-semibold mb-4 text-center md:text-left bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Connect With Me</h3>
                 <div className="flex gap-4 justify-center md:justify-start">
                   <a 
@@ -73,7 +73,7 @@ function Home() {
             </div>
 
             {/* Web Dev Section */}
-            <div className="rounded-[24px] bg-gradient-to-br from-[#111111] to-[#000000] p-5 grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 lg:mb-12 border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
+            <div className="rounded-[16px] bg-gradient-to-br from-[#111111] to-[#000000] p-5 grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 lg:mb-12 border border-[#1A1A1A] hover:border-[#222222] transition-colors shadow-lg">
               <div className="flex flex-col justify-center">
                 <h2 className="text-3xl lg:text-4xl font-bold mb-6 lg:mb-8 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">itsmehdi.co</h2>
                 <p className="text-zinc-500 mb-8 lg:mb-10 text-sm xl:text-base max-w-xl">
@@ -111,7 +111,7 @@ function Home() {
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
                 {featuredProjects.map((project) => (
-                  <div key={project.id} className="rounded-[24px] overflow-hidden bg-gradient-to-br from-[#111111] to-[#000000] border border-[#1A1A1A] hover:border-[#222222] transition-all duration-300 shadow-lg group">
+                  <div key={project.id} className="rounded-[16px] overflow-hidden bg-gradient-to-br from-[#111111] to-[#000000] border border-[#1A1A1A] hover:border-[#222222] transition-all duration-300 shadow-lg group">
                     <div className="aspect-video">
                       <img 
                         src={project.image}
