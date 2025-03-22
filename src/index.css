@@ -5,10 +5,4 @@
 
 body{
     background-color: rgb(0, 0, 0);
-    background-image: url(./assets/img/bg-img.png);
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
-

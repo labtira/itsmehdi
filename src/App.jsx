@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="min-h-screen text-white">
       <div>
-      <div>
         <Navbar />
         <Helmet>
           <title>MEHDI, Software Engineer, Graphic Designer</title>
@@ -24,7 +23,6 @@ function App() {
           <Route path="/projects/:id" element={<ProjectDetails />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </div>
       </div>
     </div>
   );

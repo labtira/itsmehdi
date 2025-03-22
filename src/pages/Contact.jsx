@@ -39,9 +39,9 @@ function Contact() {
         <LogoNavbar />
         
         {/* Contact Form Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 mt-24 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mt-24 mb-16">
           {/* Contact Info */}
-          <div className="rounded-[16px] transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30  shadow-[0_-8px_32px_rgba(0,0,0,0.12)] p-6 md:p-8 border border-[#222222] ">
+          <div className="rounded-[16px] bg-gradient-to-br from-[#111111] to-[#000000] p-6 md:p-8 border border-[#323232] transition-colors shadow-lg">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
               Get in Touch
             </h2>
@@ -51,7 +51,7 @@ function Contact() {
             <div className="space-y-6">
               <a href="mailto:itsmehdi.co.0707547044@gmail.com" className='hover:text-white transition-colors flex items-center gap-3'>
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-darkgrey/30 flex items-center justify-center border border-[#222222]">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-[#111111] to-[#000000] flex items-center justify-center border border-[#222222]">
                     <i className="fas fa-envelope text-xl"></i>
                   </div>
                   <div>
@@ -62,7 +62,7 @@ function Contact() {
               </a>
               <a href="tel:+212707547044" className='hover:text-white transition-colors flex items-center gap-3'>
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-darkgrey/30 flex items-center justify-center border border-[#222222]">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-[#111111] to-[#000000] flex items-center justify-center border border-[#222222]">
                     <i className="fas fa-phone text-xl"></i>
                   </div>
                   <div>
@@ -73,7 +73,7 @@ function Contact() {
               </a>
               <a href="https://www.google.com/maps" className='hover:text-white transition-colors flex items-center gap-3'>
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-darkgrey/30 flex items-center justify-center border border-[#222222]">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-[#111111] to-[#000000] flex items-center justify-center border border-[#222222]">
                     <i className="fas fa-map-marker-alt text-xl"></i>
                   </div>
                   <div>
@@ -90,25 +90,25 @@ function Contact() {
               <div className="flex gap-4">
                 <a 
                   href="https://www.instagram.com/itsmehdi.co" 
-                  className="w-12 h-12 rounded-full bg-darkgrey/30 flex items-center justify-center border border-[#222222] hover:border-[#333333] transition-all hover:scale-105 focus:outline-none"
+                  className="w-12 h-12 rounded-full bg-gradient-to-r from-[#111111] to-[#000000] flex items-center justify-center border border-[#222222] hover:border-[#333333] transition-all hover:scale-105 focus:outline-none"
                 >
                   <i className="fab fa-instagram text-xl"></i>
                 </a>
                 <a 
                   href="https://www.linkedin.com/in/itsmehdi-co/" 
-                  className="w-12 h-12 rounded-full bg-darkgrey/30 flex items-center justify-center border border-[#222222] hover:border-[#333333] transition-all hover:scale-105 focus:outline-none"
+                  className="w-12 h-12 rounded-full bg-gradient-to-r from-[#111111] to-[#000000] flex items-center justify-center border border-[#222222] hover:border-[#333333] transition-all hover:scale-105 focus:outline-none"
                 >
                   <i className="fab fa-linkedin text-xl"></i>
                 </a>
                 <a 
                   href="https://x.com/itsmehdi_co" 
-                  className="w-12 h-12 rounded-full bg-darkgrey/30 flex items-center justify-center border border-[#222222] hover:border-[#333333] transition-all hover:scale-105 focus:outline-none"
+                  className="w-12 h-12 rounded-full bg-gradient-to-r from-[#111111] to-[#000000] flex items-center justify-center border border-[#222222] hover:border-[#333333] transition-all hover:scale-105 focus:outline-none"
                 >
                   <i className="fab fa-twitter text-xl"></i>
                 </a>
                 <a 
                   href="https://wa.me/212707547044" 
-                  className="w-12 h-12 rounded-full bg-darkgrey/30 flex items-center justify-center border border-[#222222] hover:border-[#333333] transition-all hover:scale-105 focus:outline-none"
+                  className="w-12 h-12 rounded-full bg-gradient-to-r from-[#111111] to-[#000000] flex items-center justify-center border border-[#222222] hover:border-[#333333] transition-all hover:scale-105 focus:outline-none"
                 >
                   <i className="fab fa-whatsapp text-xl"></i>
                 </a>
@@ -118,7 +118,7 @@ function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="rounded-[16px] transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30  shadow-[0_-8px_32px_rgba(0,0,0,0.12)] p-6 md:p-8 border border-[#222222] ">
+          <div className="rounded-[16px] bg-gradient-to-br from-[#111111] to-[#000000] p-6 md:p-8 border border-[#323232] transition-colors shadow-lg">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
               Send Message
             </h2>
@@ -138,7 +138,7 @@ function Contact() {
                   name="name"
                   placeholder="Your Name" 
                   required
-                  className="w-full bg-darkgrey/30 rounded-xl px-4 py-3 text-base focus:outline-none focus:border-[#333333] hover:border-[#333333] placeholder-zinc-600 transition-colors"
+                  className="w-full bg-[#101010] border border-[#222222] rounded-xl px-4 py-3 text-base focus:outline-none focus:border-[#333333] hover:border-[#333333] placeholder-zinc-600 transition-colors"
                 />
               </div>
               <div>
@@ -147,7 +147,7 @@ function Contact() {
                   name='email'
                   placeholder="your@email.com" 
                   required
-                  className="w-full bg-darkgrey/30  rounded-xl px-4 py-3 text-base focus:outline-none focus:border-[#333333] hover:border-[#333333] placeholder-zinc-600 transition-colors"
+                  className="w-full bg-[#101010] border border-[#222222] rounded-xl px-4 py-3 text-base focus:outline-none focus:border-[#333333] hover:border-[#333333] placeholder-zinc-600 transition-colors"
                 />
               </div>
               <div>
@@ -156,7 +156,7 @@ function Contact() {
                   placeholder="Subject" 
                   name="title"
                   required
-                  className="w-full bg-darkgrey/30  rounded-xl px-4 py-3 text-base focus:outline-none focus:border-[#333333] hover:border-[#333333] placeholder-zinc-600 transition-colors"
+                  className="w-full bg-[#101010] border border-[#222222] rounded-xl px-4 py-3 text-base focus:outline-none focus:border-[#333333] hover:border-[#333333] placeholder-zinc-600 transition-colors"
                 />
               </div>
               <div>
@@ -165,12 +165,12 @@ function Contact() {
                   name='message'
                   rows="4" 
                   required
-                  className="w-full bg-darkgrey/30  rounded-xl px-4 py-3 text-base focus:outline-none focus:border-[#333333]  placeholder-zinc-600 transition-colors resize-none"
+                  className="w-full bg-[#101010] border border-[#222222] rounded-xl px-4 py-3 text-base focus:outline-none focus:border-[#333333] hover:border-[#333333] placeholder-zinc-600 transition-colors resize-none"
                 ></textarea>
               </div>
               <button 
                 type="submit" 
-                className="w-full px-8 py-4 bg-darkgrey/30 rounded-xl flex items-center justify-center gap-3  transition-all text-lg  shadow-md group"
+                className="w-full px-8 py-4 bg-gradient-to-r from-[#111111] to-[#000000] rounded-xl flex items-center justify-center gap-3 hover:from-[#1A1A1A] hover:to-[#222222] transition-all text-lg border border-[#222222] hover:border-[#333333] shadow-md group"
               >
                 Send Message
                 <svg className="w-6 h-6 transform group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none">
