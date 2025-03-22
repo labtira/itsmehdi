@@ -11,7 +11,7 @@ function Home() {
   const featuredProjects = projectsData.projects.slice(0, 4)
 
   return (
-    <div className=" bg-black text-white">
+    <div className="  text-white">
 
 
 
@@ -20,7 +20,7 @@ function Home() {
         <LogoNavbar />
 
         {/* Hero Section */}
-        <div className="bg-black text-white pt-8">
+        <div className=" text-white pt-8">
           <div className="max-w-full md:max-w-screen-md mx-auto  py-8">
             {/* Services Section */}
             <div className="flex flex-col md:flex-row gap-6  mb-6 ">
