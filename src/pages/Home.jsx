@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import gif from '../assets/img/gif1.gif'
+import gif from '../assets/img/gif.gif'
 import profil from '../assets/img/profil.png'
 import projectsData from '../data/projects.json'
 import Footer from '../components/Footer'
@@ -25,7 +25,7 @@ function Home() {
             {/* Services Section */}
             <div className="flex flex-col md:flex-row gap-6  mb-6 ">
               {/* Services Card */}
-              <div className="rounded-[16px] transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30  shadow-[0_-8px_32px_rgba(0,0,0,0.12)] p-4 flex flex-row items-center gap-3  border border-[#222222]  flex-grow ">
+              <div className="rounded-[16px] transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30  shadow-[0_-8px_32px_rgba(0,0,0,0.12)] p-4 flex flex-row items-center gap-3  border border-[#282828]  flex-grow ">
                 <div className="h-[85px] aspect-square rounded-[10px] overflow-hidden bg-gradient-to-br from-[#1A1A1A] to-[#111111] shadow-xl">
                   <img 
                     src={profil}
@@ -33,14 +33,14 @@ function Home() {
                     className="w-full h-full object-cover rounded-[10px] "
                   />
                 </div>
-                <div className="flex flex-col gap-2">
-                  <span className="px-4 py-[.7rem] bg-darkgrey/30 rounded-lg text-xs   ">Software Engineer</span>
-                  <span className="px-4 py-[.7rem] bg-darkgrey/30 rounded-lg text-xs   transition-colors shadow-md">Graphic Designer</span>
+                <div className="flex flex-col gap-3">
+                  <span className="px-4 py-[.6rem] bg-darkgrey/30 rounded-lg text-xs   ">Software Engineer</span>
+                  <span className="px-4 py-[.6rem] bg-darkgrey/30 rounded-lg text-xs   transition-colors shadow-md">Graphic Designer</span>
                 </div>
               </div>
 
               {/* Social Links Card */}
-              <div className="rounded-[16px] transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30  shadow-[0_-8px_32px_rgba(0,0,0,0.12)] p-4 border border-[#222222] ">
+              <div className="rounded-[16px] transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30  shadow-[0_-8px_32px_rgba(0,0,0,0.12)] p-4 border border-[#282828] ">
                 <h3 className="text-lg font-semibold mb-4 text-center md:text-left bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Connect With Me</h3>
                 <div className="flex gap-4 justify-center md:justify-start">
                   <a 
@@ -73,7 +73,7 @@ function Home() {
             </div>
 
             {/* Web Dev Section */}
-            <div className="rounded-[16px] transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30 shadow-[0_-8px_32px_rgba(0,0,0,0.12)] p-5 grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 lg:mb-12 border border-[#222222] ">
+            <div className="rounded-[16px] transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30 shadow-[0_-8px_32px_rgba(0,0,0,0.12)] p-5 grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 lg:mb-12 border border-[#282828] ">
               <div className="flex flex-col justify-center">
                 <h2 className="text-3xl lg:text-4xl font-bold mb-6 lg:mb-8 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">itsmehdi.co</h2>
                 <p className="text-zinc-500 mb-8 lg:mb-10 text-sm xl:text-base max-w-xl">
@@ -111,7 +111,7 @@ function Home() {
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
                 {featuredProjects.map((project) => (
-                  <div key={project.id} className="rounded-[16px] overflow-hidden transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30  shadow-[0_-8px_32px_rgba(0,0,0,0.12)] border border-[#222222] group">
+                  <div key={project.id} className="rounded-[16px] overflow-hidden transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30  shadow-[0_-8px_32px_rgba(0,0,0,0.12)] border border-[#282828] group">
                     <div className="aspect-video">
                       <img 
                         src={project.image}

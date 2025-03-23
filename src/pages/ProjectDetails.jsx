@@ -33,7 +33,7 @@ else {
         {project ? (
           <div>
             {/* Project Image */}
-            <section className="rounded-[16px] overflow-hidden transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30  shadow-[0_-8px_32px_rgba(0,0,0,0.12)] border border-[#222222]  mb-8 mt-24 md:mt-20" aria-label="Project showcase image">
+            <section className="rounded-[16px] overflow-hidden transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30  shadow-[0_-8px_32px_rgba(0,0,0,0.12)] border border-[#282828]  mb-8 mt-24 md:mt-20" aria-label="Project showcase image">
               <div className="aspect-video">
                 <img 
                   src={project.image} 
@@ -45,7 +45,7 @@ else {
 
             {/* Project Info */}
             <section className="grid gap-8 mb-14" aria-label="Project details">
-              <article className="rounded-[16px] transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30  shadow-[0_-8px_32px_rgba(0,0,0,0.12)] p-6 md:p-8 border border-[#222222] ">
+              <article className="rounded-[16px] transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30  shadow-[0_-8px_32px_rgba(0,0,0,0.12)] p-6 md:p-8 border border-[#282828] ">
                 <h1 className="text-xl lg:text-3xl font-bold mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
                   {project.title}
                 </h1>
@@ -67,7 +67,7 @@ else {
                   href={project.link} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="px-8 py-2 bg-darkgrey/30 rounded-md inline-flex items-center gap-3 hover:from-[#1A1A1A] hover:to-[#222222] transition-all text-sm border border-[#222222] hover:border-[#333333] shadow-md group"
+                  className="px-8 py-2 bg-darkgrey/30 rounded-md inline-flex items-center gap-3 hover:from-[#1A1A1A] hover:to-[#282828] transition-all text-sm border border-[#282828] hover:border-[#333333] shadow-md group"
                   aria-label={`Visit ${project.title} project website`}
                 >
                   Visit Project
