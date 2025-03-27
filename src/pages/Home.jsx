@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import gif from '../assets/img/gif.gif'
-import profil from '../assets/img/profil.png'
+import gif from '../assets/img/gif2.gif'
+import profil from '../assets/img/hero1.jpg'
 import projectsData from '../data/projects.json'
 import Footer from '../components/Footer'
 import LogoNavbar from '../components/LogoNavbar'
@@ -34,8 +34,8 @@ function Home() {
                   />
                 </div>
                 <div className="flex flex-col gap-3">
-                  <span className="px-4 py-[.6rem] bg-darkgrey/30 rounded-lg text-xs   ">Software Engineer</span>
-                  <span className="px-4 py-[.6rem] bg-darkgrey/30 rounded-lg text-xs   transition-colors shadow-md">Graphic Designer</span>
+                  <span className="px-4 py-[.7rem] bg-darkgrey/30 rounded-lg text-xs   ">Software Engineer</span>
+                  <span className="px-4 py-[.7rem] bg-darkgrey/30 rounded-lg text-xs   transition-colors shadow-md">Graphic Designer</span>
                 </div>
               </div>
 
@@ -76,7 +76,7 @@ function Home() {
             <div className="rounded-[16px] transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30 shadow-[0_-8px_32px_rgba(0,0,0,0.12)] p-5 grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 lg:mb-12 border border-[#282828] ">
               <div className="flex flex-col justify-center">
                 <h2 className="text-3xl lg:text-4xl font-bold mb-6 lg:mb-8 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">itsmehdi.co</h2>
-                <p className="text-zinc-500 mb-8 lg:mb-10 text-sm xl:text-base max-w-xl">
+                <p className="text-zinc-500 mb-8 lg:mb-10 text-sm  max-w-xl">
                   I blend the precision of software engineering with the creativity of graphic design to craft exceptional digital experiences. From elegant code to stunning visuals, I transform ideas into reality.
                 </p>
                 <Link 
