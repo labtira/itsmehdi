@@ -27,7 +27,7 @@ function Navbar() {
   return (
     <nav className={`fixed bottom-0 left-1/2 transform -translate-x-1/2 z-50 transition-all duration-500 backdrop-blur-xl bg-gradient-to-b from-black/10 to-black/30 border rounded-3xl border-[#222222] shadow-[0_-8px_32px_rgba(0,0,0,0.12)] w-[calc(100%-40px)] max-w-[310px] my-[15px] `}>
       <div className="max-w-[300px] mx-auto px-4 py-3">
-        <div className="flex items-center justify-around w-full gap-2">
+        <div className="flex items-center justify-around w-full gap-4">
           {navLinks.map((link) => (
             <Link
               key={link.path}
