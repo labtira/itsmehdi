@@ -27,7 +27,7 @@ body::before {
 @media (max-width: 768px) {
     body {
         background-attachment: fixed;
-        max-height: 100vh;
+        min-height: 100vh;
     }
 }
 
