@@ -12,3 +12,10 @@ body{
     background-attachment: fixed;
 }
 
+@media (max-width: 768px) {
+    body {
+        background-attachment: fixed;
+        max-height: 100vh;
+    }
+}
+
