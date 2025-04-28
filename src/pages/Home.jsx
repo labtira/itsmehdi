@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import gif from '../assets/img/gif2.gif'
-import profil from '../assets/img/mehdi.jpg'
+import profil from '../assets/img/hero1.jpg'
 import projectsData from '../data/projects.json'
 import Footer from '../components/Footer'
 import LogoNavbar from '../components/LogoNavbar'
@@ -12,8 +12,6 @@ function Home() {
 
   return (
     <div className=" text-white">
-
-
 
       <div className="max-w-full md:max-w-screen-md mx-auto px-5 md:px-16 py-12  ">
 
