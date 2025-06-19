@@ -112,7 +112,7 @@ function Footer() {
 
       {/* Copyright */}
       <div className="mt-8 mb-40 text-center">
-        <p className="text-zinc-500 text-lg">
+        <p className="text-zinc-500 text-md">
           © {new Date().getFullYear()} MEHDI. All rights reserved.
         </p>
       </div>
