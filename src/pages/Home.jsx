@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import gif from '../assets/img/gif2.gif'
-import profil from '../assets/img/profile.png'
+import profil from '../assets/img/profile1.png'
 import projectsData from '../data/projects.json'
 import Footer from '../components/Footer'
 import LogoNavbar from '../components/LogoNavbar'
@@ -102,7 +102,7 @@ function Home() {
                 <h2 className="text-3xl lg:text-4xl  font-bold mb-4 lg:mb-6 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
                   PROJECTS
                 </h2>
-                <p className="text-zinc-500 text-lg xl:text-xl max-w-2xl mx-auto">
+                <p className="text-zinc-500 text-xs  max-w-2xl mx-auto">
                   Browse our amazing projects and discover the universe of creativity
                 </p>
               </div>
