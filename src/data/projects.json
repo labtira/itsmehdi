@@ -53,6 +53,15 @@
       "image": "/img/Projects/weblinklogo.png",
       "technologies": ["Illustrator"],
       "link": "https://itsmehdi.co"
+    },
+    {
+      "id": 7,
+      "title": "Sirada Logo",
+      "category": "design",
+      "description": "A modern logo for a rental car agency.",
+      "image": "/img/Projects/carlogo.png",
+      "technologies": ["Illustrator"],
+      "link": "https://itsmehdi.co"
     }
   ]
 }
