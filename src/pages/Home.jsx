@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import gif from '../assets/img/gif2.gif'
-import profil from '../assets/img/profile1.png'
+import profil from '../assets/img/profile2.jpg'
 import projectsData from '../data/projects.json'
 import Footer from '../components/Footer'
 import LogoNavbar from '../components/LogoNavbar'
